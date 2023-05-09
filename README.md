@@ -36,7 +36,6 @@ Hyperparameter tuning ranges:
 - Batch size was tuned for values: ``{32, 64, 128, 256, 512}`` - found optimal value is `32`.
 
 Results of hyperparameter training jobs:
-![hyperparameter_training_screenshot](hyperparameter_training_screenshot.png "Screenshot of hyperparameter training jobs")
 Metric values was `12.29`, `8.69`, and `2.36`. One job failed due to some connection issues in AWS (model download crashed). 
 This step is costly and take a lot of time so I don't want to replicate results if accepted number of training jobs is 2.
 
